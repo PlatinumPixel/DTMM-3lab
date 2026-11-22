@@ -1,4 +1,3 @@
-"""Summarize PCA7 k-means clusters using the original cleaned feature values."""
 import argparse
 import csv
 from collections import Counter, defaultdict
