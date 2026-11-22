@@ -1,4 +1,3 @@
-"""Reproduce the ARI sample-count graph from section 7.2."""
 import argparse
 import csv
 from itertools import combinations
