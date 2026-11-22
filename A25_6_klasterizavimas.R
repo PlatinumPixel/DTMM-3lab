@@ -1,4 +1,5 @@
-# Usage: Rscript A25_6_klasterizavimas.R A25_normuotas.csv A25_5_koordinates.csv rezultatai_6
+# Naudojimas komandineje eiluteje: Rscript A25_6_klasterizavimas.R A25_normuotas.csv A25_5_koordinates.csv rezultatai_6
+
 args <- commandArgs(trailingOnly = TRUE)
 stopifnot(length(args) == 3L)
 original <- read.csv(args[1])
