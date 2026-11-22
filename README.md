@@ -52,6 +52,21 @@ python A25_7_vertinimas.py \
   rezultatai_7
 ```
 
+### 7.2 poskyris. ARI grafikas
+
+Paleiskite po 7 skyriaus. Skriptas braižo vidutinio ARI priklausomybę nuo imčių skaičiaus. Pradinės ir PCA erdvių rezultatus perskaičiuoja iki 20 imčių, o t-SNE rezultatus skaito iš `rezultatai_7/A25_7_imciu_poros.csv`.
+
+Reikia tos pačios Python aplinkos kaip 7 skyriuje ir `Rscript` su „Cairo“ palaikymu. Failai `A25_7_vertinimas.py` ir `A25_6_klasterizavimas.R` turi būti tame pačiame aplanke kaip grafiko skriptas.
+
+```bash
+python A25_7_ARI_grafikas.py \
+  A25_clean.csv \
+  rezultatai_7/A25_7_imciu_poros.csv \
+  rezultatai_7/A25_7_ARI_pakankamumas.png
+```
+
+Grafikas išsaugomas faile `rezultatai_7/A25_7_ARI_pakankamumas.png`.
+
 ## 8 skyrius. Klasterių profiliai
 
 Reikia Python 3. Papildomų bibliotekų diegti nereikia.
