@@ -1,4 +1,4 @@
-"""Run with NumPy, Pillow and Rscript. See --help for inputs."""
+# Reikiamos bibliotekos: numpy, pillow
 import argparse
 import csv
 import importlib.util
